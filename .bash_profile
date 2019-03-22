@@ -23,11 +23,6 @@ export PATH=$GEM_HOME/bin:$PATH
 export PATH=~/Library/Python/3.6/bin:$PATH
 
 
-alias ll="ls -Al"
-alias drivedb="ssh bastion -f -N -L 43306:drive-v2-wp-db-cluster.cluster-cqz3qwsitmgr.ca-central-1.rds.amazonaws.com:3306"
-alias driveqadb="ssh bastion -f -N -L 43306:drive-v2-cms-wp-db-cluster.cluster-coqk3mzjnbno.ca-central-1.rds.amazonaws.com:3306"
-
-
 # Setting PATH for Python 3.6
 # The original version is saved in .bash_profile.pysave
 PATH="/Library/Frameworks/Python.framework/Versions/3.6/bin:${PATH}"
